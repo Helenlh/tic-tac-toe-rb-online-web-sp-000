@@ -110,7 +110,7 @@ require_relative '../lib/tic_tac_toe.rb'
 	      [1, 4, 7],
 	      [2, 5, 8],
 	      [0, 4, 8], 
-	      [6, 4, 2],     
+	      [6, 4, 2]   
 	      ]
 	  
 	  def won?(board)
