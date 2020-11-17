@@ -16,8 +16,8 @@ require_relative '../lib/tic_tac_toe.rb'
 
 	def play(board)
 	  until over?(board)
-	   turn(board) 
-	 end 
+	   turn(board)  
+	 end
 	 if won?(board)
 	     #but you don't have to, because winner already returns the winniing 
 	     #token 
