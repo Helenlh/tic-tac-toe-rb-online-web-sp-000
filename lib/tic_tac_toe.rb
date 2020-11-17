@@ -28,7 +28,7 @@ require_relative '../lib/tic_tac_toe.rb'
 	
 
 	def play(board)
-	  until ovr?(board)
+	  until over?(board)
 	   turn(board)  
 	 end
 	 if won?(board)
