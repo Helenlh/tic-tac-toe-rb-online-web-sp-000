@@ -33,10 +33,10 @@ require_relative '../lib/tic_tac_toe.rb'
 	 end
 	 if won?(board)
 	   puts "Congratulations #{winner(board)}!"
+	 end 
 	   if draw?(board)
 	     puts "Cat's Game!" 
 	   end 
-	  end 
 	end 
 
 	
