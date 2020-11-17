@@ -31,17 +31,17 @@ require_relative '../lib/tic_tac_toe.rb'
 
 	
 
-# 	def turn(board)
-# 	  puts "Please enter 1-9:"
-# 	  user_input = gets.chomp
-# 	  index = input_to_index(user_input)
-# 	  if valid_move?(board, index) 
-# 	     value = current_player(board) 
-# 	    move(board, index, value)
-# 	  display_board(board) 
-# 	else 
-# 	  turn(board)
-# 	  end 
+	def turn(board)
+	  puts "Please enter 1-9:"
+	  user_input = gets.chomp
+	  index = input_to_index(user_input)
+	  if valid_move?(board, index) 
+	     value = current_player(board) 
+	    move(board, index, value)
+	  display_board(board) 
+	else 
+	  turn(board)
+	  end 
 	end 
 	
 
