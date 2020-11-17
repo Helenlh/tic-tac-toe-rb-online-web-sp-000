@@ -93,13 +93,13 @@ require_relative '../lib/tic_tac_toe.rb'
 	end   
 	      
 	      
-	    def position_taken?(board, index)
-	      if board[index] ==  nil || board[index] == " "
-	        return false 
-	      else
-	      return true  
-	        end 
-	    end 
+	   # def position_taken?(board, index)
+	   #   if board[index] ==  nil || board[index] == " "
+	   #     return false 
+	   #   else
+	   #   return true  
+	   #     end 
+	   # end 
 	    
 	   
 	    WIN_COMBINATIONS = [
