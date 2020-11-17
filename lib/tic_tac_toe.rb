@@ -80,17 +80,16 @@ require_relative '../lib/tic_tac_toe.rb'
 	    end 
 	end 
 	count 
-	end https://avatars.githubusercontent.com/u/70414717?s=64
-	
 
-	def current_player(board) 
-	  count = turn_count(board) 
-	  if count % 2 == 0 
-	      turn = "X" 
-	  else  
-	    turn = "O" 
-	  end   
-	end   
+
+# 	def current_player(board) 
+# 	  count = turn_count(board) 
+# 	  if count % 2 == 0 
+# 	      turn = "X" 
+# 	  else  
+# 	    turn = "O" 
+# 	  end   
+# 	end   
 	      
 	      
 	    def position_taken?(board, index)
