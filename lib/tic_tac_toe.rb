@@ -146,7 +146,9 @@ end
 	    
 	 def winner(board)
 	         winning_value = won?(board)
-	         #if winning_value 
-	         #  board[winning_value[0]]
-	         #end 
+	         if winning_value 
+	           board[winning_value[0]]
+	         end 
 	  end 
+	end 
+	
