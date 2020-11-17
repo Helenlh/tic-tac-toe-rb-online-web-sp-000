@@ -150,5 +150,3 @@ end
 	           board[winning_value[0]]
 	         end 
 	  end 
-	end 
-	
