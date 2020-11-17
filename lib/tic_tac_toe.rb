@@ -80,6 +80,7 @@ require_relative '../lib/tic_tac_toe.rb'
 	    end 
 	end 
 	count 
+end 
 
 
 # 	def current_player(board) 
