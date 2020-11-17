@@ -112,7 +112,7 @@ describe './lib/tic_tac_toe.rb' do
 
       expect($stdout).to receive(:puts).with("Cat's Game!")
 
-      play 
+      play(board)
     end
 
     it 'plays through an entire game' do
