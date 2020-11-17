@@ -44,7 +44,7 @@ require_relative '../lib/tic_tac_toe.rb'
 
 	
 
-	def turn(board)
+	def turn(board) 
 	  puts "Please enter 1-9:"
 	  user_input = gets.chomp
 	  index = input_to_index(user_input)
