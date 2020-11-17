@@ -113,20 +113,20 @@ require_relative '../lib/tic_tac_toe.rb'
 	      [6, 4, 2],     
 	      ]
 	  
-	 # def won?(board)
-	 #      WIN_COMBINATIONS.detect do |array|
-	 #      index_1 = array[0]
-	 #      index_2 = array[1]
-	 #      index_3 = array[2]
+	  def won?(board)
+	       WIN_COMBINATIONS.detect do |array|
+	       index_1 = array[0]
+	       index_2 = array[1]
+	       index_3 = array[2]
 	     
-	 #    position_1 = board[index_1] 
-	 #    position_2 = board[index_2]
-	 #    position_3 = board[index_3] 
+	     position_1 = board[index_1] 
+	     position_2 = board[index_2]
+	     position_3 = board[index_3] 
 	     
 	        
-	 #     position_1 == position_2 && position_2 == position_3 && (position_1 == "X" || position_1 == "O")
-	 #     end   
-	 #   end 
+	      position_1 == position_2 && position_2 == position_3 && (position_1 == "X" || position_1 == "O")
+	      end   
+	    end 
 	
 
 	     
