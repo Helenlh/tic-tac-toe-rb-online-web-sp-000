@@ -49,7 +49,7 @@ require_relative '../lib/tic_tac_toe.rb'
 	     value = current_player(board) 
 	    move(board, index, value)
 	  display_board(board) 
-	else 
+	else  
 	  turn(board)
 	  end 
 	end 
