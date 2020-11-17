@@ -125,7 +125,7 @@ require_relative '../lib/tic_tac_toe.rb'
 	     
 	        
 	 #     position_1 == position_2 && position_2 == position_3 && (position_1 == "X" || position_1 == "O")
-	 #     end  
+	 #     end   
 	 #   end 
 	
 
