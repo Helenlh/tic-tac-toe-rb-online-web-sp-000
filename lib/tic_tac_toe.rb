@@ -28,14 +28,14 @@ require_relative '../lib/tic_tac_toe.rb'
 	
 
 	def play(board)
-	  until over?(board)
+	  until ovr?(board)
 	   turn(board)  
 	 end
 	 if won?(board)
 	     #but you don't have to, because winner already returns the winniing 
 	     #token 
 	     
-	   puts "Congratulations #{winnerboard}""
+	   puts "Congratulations #{(winnerboard)}""
 	  if draw?(board)
 	     puts "Cat's Game!" 
 	   end 
