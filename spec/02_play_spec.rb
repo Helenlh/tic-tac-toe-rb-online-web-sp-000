@@ -106,7 +106,7 @@ describe './lib/tic_tac_toe.rb' do
       play(board)
     end
 
-    it 'prints "Cat\'s Game!" on a draw' do
+    it 'prints "Cat's Game!" on a draw' do
       board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
       allow($stdout).to receive(:puts)
 
@@ -126,7 +126,7 @@ describe './lib/tic_tac_toe.rb' do
       expect(self).to receive(:gets).and_return("4")
       expect(self).to receive(:gets).and_return("5")
       expect(self).to receive(:gets).and_return("6")
-      expect(self).to receive(:gets).and_return("7")
+      expect(self).to receive(:gets).and_return("7") 
       allow(self).to receive(:gets).and_raise("CLI continues to ask for input after game should have ended")
 
 
