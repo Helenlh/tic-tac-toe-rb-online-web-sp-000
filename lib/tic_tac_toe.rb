@@ -24,7 +24,7 @@ require_relative '../lib/tic_tac_toe.rb'
 	     
 # 	   puts "Congratulations #{index}!"
 # 	  if draw?(board)
-# 	     puts "Cat's Game!"
+# 	     puts "Cat's Game 
 # 	   end 
 # 	  end 
 # 	end 
